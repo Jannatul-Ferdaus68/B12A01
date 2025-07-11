@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: hsl(218, 100%, 98%);
 }
 
 .inter-boldtittle {
@@ -46,12 +47,17 @@ nav {
 
 .btn {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #4E47FF;
     padding: 10px 30px;
     border: 2px solid #4E47FF;
     border-radius: 7%;
     font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1e1a83;
+    border: 2px solid #1e1a83;
 }
 
 .banner-content {
@@ -67,4 +73,29 @@ nav {
     font-weight: bold;
     font-size: 65px;
     text-align: center;
+}
+/*----main----*/
+main{
+    margin: 6% 15%;
+}
+/*----Action----*/
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondary-text-color{
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-title{
+    font-size: 3em;
+    font-weight: bold;
+}
+.action-des{
+    font-size: 1.5em;
+}
+.action img{
+    width: 400px;
+    height: 330px;
+    border-radius: 15%;
 }
