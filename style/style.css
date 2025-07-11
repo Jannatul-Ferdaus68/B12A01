@@ -49,9 +49,9 @@ nav {
     color: #FFFFFF;
     font-size: 18px;
     background-color: #4E47FF;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border: 2px solid #4E47FF;
-    border-radius: 7%;
+    border-radius: 5%;
     font-weight: bold;
     cursor: pointer;
 }
@@ -173,4 +173,54 @@ span{
     width: 80%;
     height: 100%;
     border-radius: 12%;
+}
+
+/*----Get in Touch----*/
+.touch-title{
+    font-size: 6em;
+    font-weight: bold;
+}
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    font-weight: 500;
+}
+.get-in-touch input[type="text"], .get-in-touch input[type="email"], .get-in-touch textarea{
+    font-size: 1em;
+    width: 90%;
+    height: 20%;
+    padding: 3% 5%;
+    margin: 10px 0 20px 0;
+    border: 1px solid #e4dfdf;
+    border-radius: 3%;
+}
+.get-in-touch button{
+    width: 100%;
+}
+
+hr{
+    margin-bottom: 0;
+    width: 100%;
+
+}
+hr{
+    border: 1px solid #e6e3e3
+}
+/*----Footer----*/
+footer{
+    font-size: 18px;
+    text-align: center;
+    width: 86%;
+    padding: 7%;
+    background-color: rgb(255, 255, 255);
+}
+.footer-title{
+    font-size: 5em;
+    font-weight: 900;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
 }
