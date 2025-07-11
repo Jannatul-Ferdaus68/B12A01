@@ -99,3 +99,27 @@ main{
     height: 330px;
     border-radius: 15%;
 }
+/*----productive_user----*/
+.productive_user{
+    margin-top: 9%;
+    padding: 2% 5%;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 2%;
+    font-size: 1.2em;
+    
+}
+.user-title{
+    padding: 5%;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+}
+.user-item-title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 4em;
+}
